@@ -2,6 +2,7 @@ var commands = document.getElementById("commands");
 var user_input = document.getElementById("user_input");
 var terminal_outputs = document.getElementById("terminal_outputs");
 var terminal_content = document.getElementById("terminal_content");
+
 function execute(input){
     let output;
     input = input.toLowerCase();
@@ -33,6 +34,12 @@ function execute(input){
             
         }
     }
+    else if(input == "personal"){
+        setTimeout(()=>{window.open("http://personal.psu.edu/dem5634/", "_blank");},2000)
+        function helper(){
+            
+        }
+    }
 
 }
 
@@ -54,24 +61,26 @@ document.addEventListener("keypress",key);
 const COMMANDS = 
 {
     help:
-        'Supported commands: [<span class="command-keyword">"about"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',
+        'Supported commands: [<span class="command-keyword">"about"</span>, <span class="command-keyword">"personal"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',
         
     about: 
-        "Hi, I'm David ",
+        "Hi, I'm David, I am a Senior Comp Sci student learning to launch a startup!",
     skills:
         'Python, pandas, matplotlib, scikitlearn, numpy, C, CSS, HTML, JS, Java',
     experience:
         'Entrepreneur',
     education:
-        'Computer Science and Entrepreneurship and Innovation Undergrad at Penn State University Park',
+        'Penn State University Park: B.S. Computer Science; B.S. Corporate Innovation and Entrepreneurship',
     contact:
-        'Phone: +1 215-872-2008\nEmail: dem5634@psu.edu\nLinkedIn: https://www.linkedin.com/in/dem1/',
+        'Phone: +1 215-872-2008  |  Email: dem5634@psu.edu  |  LinkedIn: https://www.linkedin.com/in/dem1/',
     github:
-        'opening my GitHub page ...',
+        'Opening my GitHub ...',
     resume:
-        'opening my resume',
+        'Opening my resume ...',
     linkedin:
-        'opening my linkedin'
+        'Opening my linkedin ...',
+    personal:
+        'Opening personal site ...'
 }
 
 // double quotes on inside with single quotes on outside enable us to show double quotes
