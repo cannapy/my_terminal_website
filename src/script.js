@@ -40,7 +40,12 @@ function execute(input){
             
         }
     }
-
+    else if(input == "datamining"){
+        setTimeout(()=>{window.open("https://github.com/cannapy/Data-Mining", "_blank");},2000)
+        function helper(){
+            
+        }
+    }
 }
 
 function key(e){
@@ -61,8 +66,7 @@ document.addEventListener("keypress",key);
 const COMMANDS = 
 {
     help:
-        'Supported commands: [<span class="command-keyword">"about"</span>, <span class="command-keyword">"personal"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',
-        
+        'Supported commands: [<span class="command-keyword">"datamining"</span>, <span class="command-keyword">"about"</span>, <span class="command-keyword">"personal"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',   
     about: 
         "Hi, I'm David, I am a Senior Comp Sci student learning to launch a startup!",
     skills:
@@ -80,7 +84,9 @@ const COMMANDS =
     linkedin:
         'Opening my linkedin ...',
     personal:
-        'Opening personal site ...'
+        'Opening personal site ...',
+    datamining:
+        'Opening datamining projects ...'
 }
 
 // double quotes on inside with single quotes on outside enable us to show double quotes
