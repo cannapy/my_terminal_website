@@ -23,7 +23,7 @@ function execute(input){
         }
     }
     else if(input == "resume"){
-        setTimeout(()=>{window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2786b3c6-8fdd-31f3-a55b-c1464133079b", "_blank");},2000)
+        setTimeout(()=>{window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:00d9b3c5-acbd-3a2b-bcd8-3e27904d57ad", "_blank");},2000)
         function helper(){
             
         }
