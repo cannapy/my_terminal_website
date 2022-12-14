@@ -86,7 +86,7 @@ const COMMANDS =
     personal:
         'Opening personal site ...',
     datamining:
-        'Opening datamining projects ...'
+        'Opening data mining projects ...'
 }
 
 // double quotes on inside with single quotes on outside enable us to show double quotes
