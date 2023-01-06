@@ -55,7 +55,8 @@ function execute(input){
 
 function key(e){
     const input = user_input.value;
-
+    console.log("input",input)
+    console.log("e.key", e.key)
     if(e.key=="Enter"){
         execute(input);
         user_input.value = "";
