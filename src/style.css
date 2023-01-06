@@ -126,6 +126,7 @@ body{
 
     margin-left: 0px;
 
+    color:white;
 }
 
 
@@ -143,6 +144,7 @@ body{
 
     border-radius: 50%;
 
+    color:white;
 }
 
 
@@ -159,7 +161,8 @@ body{
     margin: 5px;
 
     border-radius: 50%;
-
+    
+    color:white;
 }
 
 
