@@ -97,4 +97,3 @@ const COMMANDS =
         'Opening data mining projects ...'
 }
 
-// double quotes on inside with single quotes on outside enable us to show double quotes
