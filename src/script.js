@@ -47,8 +47,9 @@ function execute(input){
         }
     }
     else if (input.toLowerCase()=="react"){
-        setTimeout(()=>{windows.open("https://github.com/cannapy/react", "_blank");},2000)
+        setTimeout(()=>{window.open("https://github.com/cannapy/react", "_blank");},2000)
         function helper(){
+            
         }
 }
 
@@ -69,10 +70,10 @@ document.addEventListener("keypress",key);
 // idea: dictionary for user inputs. automaticaally add as a key with value equivalent to the number of times it is called. Depedning on stdv, add as a command 
 const COMMANDS = 
 {
-    react:
-        'Opening my React projects...',
     help:
         'Supported commands: [<span class="command-keyword">"datamining"</span>,<span class="command-keyword">"React"</span>, <span class="command-keyword">"about"</span>, <span class="command-keyword">"personal"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',   
+    react:
+        'Opening my React projects...',
     about: 
         "Hi, I'm David, I am a Senior Comp Sci student learning to launch a startup!",
     skills:
