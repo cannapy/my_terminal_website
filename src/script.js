@@ -40,7 +40,7 @@ function execute(input){
             
         }
     }
-    else if(input == "datamining"){
+    else if(input == "portfolio"){
         setTimeout(()=>{window.open("https://github.com/cannapy/Data-Mining", "_blank");},2000)
         function helper(){
             
@@ -73,7 +73,7 @@ document.addEventListener("keypress",key);
 const COMMANDS = 
 {
     help:
-        'Supported commands: [<span class="command-keyword">"datamining"</span>,<span class="command-keyword">"React"</span>, <span class="command-keyword">"about"</span>, <span class="command-keyword">"personal"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',   
+        'Supported commands: [<span class="command-keyword">"portfolio"</span>,<span class="command-keyword">"React"</span>, <span class="command-keyword">"about"</span>, <span class="command-keyword">"personal"</span>, <span class="command-keyword">"experience"</span>, <span class="command-keyword">"education"</span>, <span class="command-keyword">"skills"</span>, <span class="command-keyword">"contact"</span>, <span class="command-keyword">"github"</span>, <span class="command-keyword">"resume"</span>, <span class="command-keyword">"linkedin"</span>]',   
     react:
         'Opening my React projects...',
     about: 
@@ -94,7 +94,7 @@ const COMMANDS =
         'Opening my linkedin ...',
     personal:
         'Opening personal site ...',
-    datamining:
-        'Opening data mining projects ...'
+    portfolio:
+        'Opening more projects ...'
 }
 
